@@ -1,0 +1,14 @@
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\net8.0\BikeRentalManagementSystem_V1.exe
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\net8.0\BikeRentalManagementSystem_V1.deps.json
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\net8.0\BikeRentalManagementSystem_V1.runtimeconfig.json
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\net8.0\BikeRentalManagementSystem_V1.dll
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\bin\Debug\net8.0\BikeRentalManagementSystem_V1.pdb
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.AssemblyInfoInputs.cache
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.AssemblyInfo.cs
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.csproj.CoreCompileInputs.cache
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.dll
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\refint\BikeRentalManagementSystem_V1.dll
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.pdb
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\BikeRentalManagementSystem_V1.genruntimeconfig.cache
+C:\Users\UT01235\Desktop\Exam\PROJECTS\BikeRentalManagementSystem_V1\BikeRentalManagementSystem_V1\obj\Debug\net8.0\ref\BikeRentalManagementSystem_V1.dll
