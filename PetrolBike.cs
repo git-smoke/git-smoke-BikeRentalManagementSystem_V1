@@ -10,5 +10,8 @@ public class PetrolBike : Bike
         FuelTankCapacity = fuelTankCapacity;
     }
 
-
+    public string DisplayPetrolBikeInfo()
+    {
+        return $"{base.ToString()}, EngineCapacity: {EngineCapacity}, FuelTankCapacity: {FuelTankCapacity}";
+    }
 }

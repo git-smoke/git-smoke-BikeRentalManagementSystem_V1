@@ -20,6 +20,11 @@
         {
             return $"BikeId : {BikeId}, Brand: {Brand}, Model: {Model}, RentalPrice: {RentalPrice}";
         }
+
+        public virtual string DisplayBikeInfo()
+        {
+            return ToString();
+        }
     }
 }
 
