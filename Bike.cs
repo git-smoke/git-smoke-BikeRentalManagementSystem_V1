@@ -3,10 +3,10 @@
     public class Bike
     {
 
-        private string BikeId { get; set; }
-        private string Brand { get; set; }
-        private string Model { get; set; }
-        private decimal RentalPrice { get; set; }
+        public string BikeId { get; set; }
+        public string Brand { get; set; }
+        public string Model { get; set; }
+        public decimal RentalPrice { get; set; }
 
         public Bike(string bikeId, string brand, string model, decimal rentalPrice)
         {
