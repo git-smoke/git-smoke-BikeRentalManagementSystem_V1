@@ -4,6 +4,7 @@ namespace BikeRentalManagementSystem_V1;
 
 public class BikeManager
 {
+
     public List<Bike> bikes = new List<Bike>();
 
     public void CreateBike()

@@ -2,7 +2,7 @@
 
 public class ElectricBike : Bike
 {
-
+    
 
     public int BatteryCapacity { get; set; }
     public int MotorPower { get; set; }
