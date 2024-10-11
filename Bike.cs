@@ -2,6 +2,7 @@
 {
     public class Bike
     {
+
         private string BikeId { get; set; }
         private string Brand { get; set; }
         private string Model { get; set; }
