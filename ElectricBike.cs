@@ -13,8 +13,8 @@ public class ElectricBike : Bike
         MotorPower = motorPower;
     }
 
-    public string DisplayElectricBikeInfo()
+    public string DisplayBikeInfo()
     {
-        return $"{base.ToString()}, BatteryCapacity: {BatteryCapacity}, MotorPower: {MotorPower}";
+        return $"{base.DisplayBikeInfo()}, BatteryCapacity: {BatteryCapacity}, MotorPower: {MotorPower}";
     }
 }

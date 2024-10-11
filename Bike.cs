@@ -8,13 +8,17 @@
         public string Model { get; set; }
         public decimal RentalPrice { get; set; }
 
+        public static int TotalBikes { get; set; }
+
         public Bike(string bikeId, string brand, string model, decimal rentalPrice)
         {
             BikeId = bikeId;
             Brand = brand;
             Model = model;
             RentalPrice = rentalPrice;
+            TotalBikes = TotalBikes + 1;
         }
+
 
         public override string ToString()
         {

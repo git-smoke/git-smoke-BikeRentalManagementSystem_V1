@@ -17,7 +17,7 @@ public class BikeManager
             Console.Write("Enter Bike Model: ");
             string model = Console.ReadLine();
             Console.Write("Enter Bike RentalPrice: ");
-            decimal rentalPrice = Convert.ToDecimal(Console.ReadLine());
+            decimal rentalPrice = ValidateRentalPrice();
 
             bikes.Add(new Bike(bikeId, brand, model, rentalPrice));
 
@@ -79,7 +79,7 @@ public class BikeManager
                 Console.Write("Enter New Model");
                 string model = Console.ReadLine();
                 Console.Write("Enter New Rental Price");
-                decimal rentalPrice = decimal.Parse(Console.ReadLine());
+                decimal rentalPrice = ValidateRentalPrice();
 
                 bikeData.BikeId = bikeId;
                 bikeData.Brand = brand;
@@ -125,5 +125,37 @@ public class BikeManager
         {
             Console.WriteLine($"\nError Occured: {ex.Message}");
         }
+    }
+
+    public decimal ValidateRentalPrice()
+    {
+        decimal rentalPrice = 0;
+
+        try
+        {
+            while (true)
+            {
+                Console.Write("Enter the rental Price: ");
+                decimal price = decimal.Parse(Console.ReadLine());
+
+                if (price > 0)
+                {
+                    rentalPrice = price;
+
+                }
+                else
+                {
+                    //rentalPrice = price * -1;
+                    Console.WriteLine("Please Enter a Positive amount");
+                }
+            }
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error Occured: {ex.Message}");
+        }
+
+        return rentalPrice;
     }
 }
