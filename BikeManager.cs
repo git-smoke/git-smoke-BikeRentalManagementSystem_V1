@@ -37,14 +37,14 @@ public class BikeManager
         try
         {
             Console.WriteLine("++++++++++");
-            Console.Write("Available Bikes");
+            Console.WriteLine("Available Bikes");
             Console.WriteLine("++++++++++");
 
             if (bikes.Count != 0)
             {
                 foreach (Bike bike in bikes)
                 {
-                    Console.WriteLine($"{bike.ToString()}");
+                    Console.WriteLine($"\n{bike.ToString()}");
                 }
             }
             else
@@ -56,7 +56,7 @@ public class BikeManager
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error Occured: {ex.Message}");
+            Console.WriteLine($"\nError Occured: {ex.Message}");
         }
     }
 
@@ -65,10 +65,10 @@ public class BikeManager
         try
         {
             Console.WriteLine("------------");
-            Console.Write("Update Bikes");
+            Console.WriteLine("Update Bikes");
             Console.WriteLine("------------");
 
-            Console.Write("Enter Bike Id: ");
+            Console.Write("\nEnter Bike Id: ");
             string bikeId = Console.ReadLine();
 
             var bikeData = bikes.Find(b => b.BikeId == bikeId);
@@ -86,16 +86,16 @@ public class BikeManager
                 bikeData.Model = model;
                 bikeData.RentalPrice = rentalPrice;
 
-                Console.WriteLine("Bike Updated Successfully");
+                Console.WriteLine("\nBike Updated Successfully");
             }
             else
             {
-                Console.WriteLine("Check Your Id");
+                Console.WriteLine("\nCheck Your Id");
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error Occured: {ex.Message}");
+            Console.WriteLine($"\nError Occured: {ex.Message}");
         }
     }
 
@@ -107,23 +107,23 @@ public class BikeManager
             Console.WriteLine("Delete Bike");
             Console.WriteLine("********");
 
-            Console.Write("Enter Bike Id: ");
+            Console.Write("\nEnter Bike Id: ");
             string bikeId = Console.ReadLine();
 
             var bikeData = bikes.Find(b => b.BikeId == bikeId);
             if (bikeData != null)
             {
                 bikes.Remove(bikeData);
-                Console.WriteLine("Bike Removed Successfully");
+                Console.WriteLine("\nBike Removed Successfully");
             }
             else
             {
-                Console.WriteLine("No Bike Found ! Check the Id Again");
+                Console.WriteLine("\nNo Bike Found ! Check the Id Again");
             }
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error Occured: {ex.Message}");
+            Console.WriteLine($"\nError Occured: {ex.Message}");
         }
     }
 }

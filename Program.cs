@@ -6,7 +6,7 @@ namespace BikeRentalManagementSystem_V1
     {
         static void Main(string[] args)
         {
-            BikeManager bikeManager = new BikeManager();
+
             /*
             Bike bike1 = new Bike("Bike_001", "YAMAHA", "Mt-15", Convert.ToDecimal(10.00));
 
@@ -15,17 +15,18 @@ namespace BikeRentalManagementSystem_V1
             Console.WriteLine("******************");
             */
 
-            Console.WriteLine("Bike Rental Management System");
+            BikeManager bikeManager = new BikeManager();
             bool exit = false;
             while (!exit)
             {
                 Console.Clear();
-                Console.Write("1. Add a Bike");
-                Console.Write("2. View All Bikes");
-                Console.Write("3. Update a Bike");
-                Console.Write("4. Delete a Bike");
-                Console.Write("5. Exit");
-                Console.Write("\nChoose an option");
+                Console.WriteLine("+-+-+-+- Bike Rental Management System +-+-+-+-");
+                Console.WriteLine("\n1. Add a Bike");
+                Console.WriteLine("2. View All Bikes");
+                Console.WriteLine("3. Update a Bike");
+                Console.WriteLine("4. Delete a Bike");
+                Console.WriteLine("5. Exit");
+                Console.Write("\nChoose an option: ");
 
                 string option = Console.ReadLine();
 
