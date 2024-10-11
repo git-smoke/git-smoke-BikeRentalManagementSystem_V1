@@ -14,6 +14,11 @@
             Model = model;
             RentalPrice = rentalPrice;
         }
+
+        public override string ToString()
+        {
+            return $"BikeId : {BikeId}, Brand: {Brand}, Model: {Model}, RentalPrice: {RentalPrice}";
+        }
     }
 }
 
